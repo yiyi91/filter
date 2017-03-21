@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--背景色-->
+    <color name="bg_color">#f3f3f3</color>
+    <!--白色-->
+    <color name="white">#fff</color>
+    <!--分割线颜色-->
+    <color name="line">#ebebeb</color>
+    <!--主题色-->
+    <color name="theme_color">#f80027</color>
+    <!--黑色-->
+    <color name="black">#131313</color>
+    <color name="black2">#3b3b3b</color>
+    <!--分割线颜色-->
+    <color name="line_color">#ededed</color>
+    <!--透明-->
+    <color name="transparent">#00000000</color>
+    <color name="filter_color_gray">#f5f5f5</color>
+</resources>

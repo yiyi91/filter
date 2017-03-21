@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="7dp"
+        android:gravity="center_vertical"
+        android:background="@color/white">
+        <FrameLayout
+            android:id="@+id/fl_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:drawableLeft="@drawable/search"
+            android:layout_weight="1"
+            android:background="@drawable/search_bg"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical"
+            android:hint="搜索"
+            android:textColorHint="#7e7e7e"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp"
+            android:maxLines="1"
+            android:imeOptions="actionDone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="取消"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:id="@+id/tv_cancel" />
+
+    </LinearLayout>
+

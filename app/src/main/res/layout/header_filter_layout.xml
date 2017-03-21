@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/layout_search"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line"></View>
+        <com.xjb.filter.SortView
+            android:id="@+id/filter_View1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+        </com.xjb.filter.SortView>
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_general"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@drawable/filter_text_color"
+                android:textSize="@dimen/font_large"
+                android:text="综合"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_save_money"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@drawable/filter_text_color"
+                android:textSize="@dimen/font_large"
+                android:text="省钱 ↓"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/filter_text_color"
+                    android:textSize="@dimen/font_large"
+                    android:text="价格"
+                    android:gravity="center" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="5dp">
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:id="@+id/view_price_up"
+                        android:background="@drawable/triangle1_selector"/>
+                    <TextView
+                        android:id="@+id/view_price_down"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/triangle2_selector"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line">
+
+        </View>
+    <com.xjb.filter.FilterView
+        android:id="@+id/filter_View"
+        android:layout_width="match_parent"
+        android:layout_height="40.5dp">
+
+    </com.xjb.filter.FilterView>
+</LinearLayout>
+
